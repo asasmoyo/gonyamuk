@@ -2,8 +2,8 @@ GO:=$(shell which go)
 
 .PHONY: test
 test:
-	go test -v $(shell glide novendor)
+	$(GO) test -v $(shell glide novendor)
 
 .PHONY: tools
 tools:
-	$(GO) get github.com/Masterminds/glide
+	$(GO) get -u github.com/Masterminds/glide
