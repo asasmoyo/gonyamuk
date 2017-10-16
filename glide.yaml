@@ -1,0 +1,4 @@
+package: github.com/asasmoyo/gonyamuk
+import:
+- package: github.com/smartystreets/goconvey
+  version: ^1.6.3
